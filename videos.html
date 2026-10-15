@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>All Videos | Muhammad Khizar</title>
+<meta name="description" content="Every video by Muhammad Khizar in one place: brand films, product ads, AI explainers, logo animation and viral reels.">
+<meta property="og:title" content="All Videos | Muhammad Khizar">
+<meta property="og:description" content="Every video by Muhammad Khizar in one place: brand films, product ads, AI explainers, logo animation and viral reels.">
+<meta property="og:image" content="img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0f0e14">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./#top" aria-label="Muhammad Khizar, home" title="Muhammad Khizar"><svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#0f6b63"/><rect x="17" y="15" width="7.5" height="34" rx="2.5" fill="#fff"/><path d="M27 32 42 16M27 32 42 48" stroke="#fff" stroke-width="7.5" stroke-linecap="round" fill="none"/><path d="M38.5 26.2 49 32 38.5 37.8Z" fill="#f5b544" stroke="#f5b544" stroke-width="2" stroke-linejoin="round"/></svg></a>
+    <nav class="nav" aria-label="Main">
+      <a href="./#work">Work</a>
+      <a href="videos.html" aria-current="page">All videos</a>
+      <a class="hide-sm" href="./#skills">Skills</a>
+      <a class="btn sm primary" href="./#contact">Hire me</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Muhammad Khizar · Portfolio</span>
+      <h1>All videos</h1>
+      <p>Brand films, product ads, AI explainers, logo animation and viral reels. Tap any video to watch it.</p>
+    </div>
+  </section>
+  <section style="padding-block:0 96px">
+    <div class="wrap">
+      <div class="filters" id="filters" role="toolbar" aria-label="Filter by category"></div>
+      <div class="bin" id="all"><p class="empty">Loading videos…</p></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="wrap"><span>© 2026 Muhammad Khizar · Karachi, Pakistan</span><span>AI Video Creator &amp; Video Editor</span></div></footer>
+
+<div class="player" id="player" hidden role="dialog" aria-modal="true" aria-label="Video player">
+  <div class="pbar">
+    <div class="t"><h3></h3><span class="sub"></span></div>
+    <button type="button" class="btn sm close">Close</button>
+  </div>
+  <div class="pstage"></div>
+</div>
+<script src="videos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
